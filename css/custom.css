@@ -52,3 +52,33 @@
 #footer {
   background-color: #3F365B;
 }
+
+@media (max-width: 991px) {
+  #footer > .container > .row {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 40px !important;
+  }
+
+  #footer > .container > .row > * {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  #footer > .container > .row {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 36px !important;
+  }
+
+  .cv-footer-newsletter,
+  .cv-footer-input,
+  .cv-footer-newsletter-btn {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cv-contact-row span,
+  .cv-footer-brand p {
+    overflow-wrap: anywhere;
+  }
+}
