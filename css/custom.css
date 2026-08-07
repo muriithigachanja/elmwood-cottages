@@ -1,0 +1,49 @@
+/* Elmwood Cottage branding. Original template styling and animations remain intact. */
+.elmwood-brand { display:flex; flex-direction:column; justify-content:center; color:inherit; font-family:var(--cv-font-display); line-height:.82; text-decoration:none; }
+.elmwood-brand strong { font-size:25px; font-weight:500; letter-spacing:-.03em; }
+.elmwood-brand span { margin-top:8px; font-family:var(--cv-font-body); font-size:9px; font-weight:700; letter-spacing:.28em; text-transform:uppercase; }
+#header.dark .elmwood-brand,.elmwood-brand-footer { color:#fff; }
+#header:not(.dark) .elmwood-brand { color:var(--cv-ink); }
+.elmwood-brand-footer { display:inline-flex; margin-bottom:10px; }
+
+/* Virginia HCS-inspired palette */
+:root {
+  --cnvs-themecolor: #754DF1;
+  --cnvs-themecolor-rgb: 117, 77, 241;
+  --cnvs-themecolor-dark: #5E3BCB;
+  --cv-ink: #3F365B;
+  --cv-mist: #F2F2F2;
+  --cv-fog: #F2F2F8;
+  --cv-teal-mid: #9F95CD;
+  --cv-line: rgba(63, 54, 91, 0.10);
+  --cv-soft: rgba(63, 54, 91, 0.68);
+}
+
+.cv-hero::after {
+  background: linear-gradient(180deg, rgba(36, 30, 57, 0.48) 0%, rgba(36, 30, 57, 0.28) 40%, rgba(36, 30, 57, 0.72) 100%);
+}
+
+.cv-hero h1 em,
+.cv-hero-eyebrow,
+.cv-section--ink .cv-eyebrow,
+.cv-cta-band h2 em,
+.cv-cta-band .cv-cta-call .num .bi {
+  color: #DCD7F5;
+}
+
+.cv-hero-eyebrow::before,
+.cv-section--ink .cv-eyebrow::before {
+  background: #DCD7F5;
+}
+
+.cv-service-icon {
+  background: #F2F2F8;
+}
+
+.cv-quote-author img {
+  border-color: #F2F2F8;
+}
+
+#footer {
+  background-color: #3F365B;
+}
