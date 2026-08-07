@@ -23,6 +23,11 @@
   background: linear-gradient(180deg, rgba(36, 30, 57, 0.48) 0%, rgba(36, 30, 57, 0.28) 40%, rgba(36, 30, 57, 0.72) 100%);
 }
 
+.cv-hero-bg {
+  background-image: url('../demos/dental-clinic/images/elmwood-hero.png');
+  background-position: center center;
+}
+
 .cv-hero h1 em,
 .cv-hero-eyebrow,
 .cv-section--ink .cv-eyebrow,
